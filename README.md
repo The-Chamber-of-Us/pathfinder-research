@@ -1,53 +1,57 @@
-Pathfinder Research
+# Pathfinder Research
 
-Structured research spikes that turn field observations, implementation questions, and strategic uncertainties into evidence-traceable working models for TCUS decisions.
+> Structured research spikes that turn field observations, implementation questions, and strategic uncertainties into evidence-traceable working models for TCUS decisions.
 
-Purpose
+##  Purpose
 
-Pathfinder Research is a lightweight research workflow for The Chamber of Us.
+**Pathfinder Research** is a lightweight research workflow for The Chamber of Us. 
 
-It starts with real observations from partners, field collaborators, technical advisors, or project work, then turns those observations into focused research spikes.
+It starts with real observations from partners, field collaborators, technical advisors, or project work, and turns those observations into focused research spikes. 
 
-The goal is not to create polished certainty. The goal is to reduce uncertainty responsibly and preserve the evidence trail behind working decisions.
+**The goal is not to create polished certainty.** The goal is to reduce uncertainty responsibly and preserve the evidence trail behind working decisions.
 
-Current Status
+---
 
-This repository is early-stage.
+##  Current Status
 
-The first active spike is:
+This repository is currently in its early stages.
 
+**The first active spike is:**
 * Ribbed / HCB slab adoption in Ethiopia
 
-Working Principles
+---
 
-* Start with a real-world trigger.
-* Separate evidence from interpretation.
-* Preserve raw AI outputs as leads, not truth.
-* Convert strong claims into page-level evidence.
-* Use local expert review before making confident claims.
-* Prefer useful uncertainty reduction over broad polished memos.
+##  Working Principles
 
-Basic Structure
+* **Start with a real-world trigger.**
+* **Separate evidence from interpretation.**
+* **Preserve raw AI outputs** as leads, not truth.
+* **Convert strong claims** into page-level evidence.
+* **Use local expert review** before making confident claims.
+* **Prefer useful uncertainty reduction** over broad, polished memos.
 
-spikes/
-  ribbed-hcb-slab-adoption-ethiopia/
-    00-spike-brief.md
-    01-chatgpt-5-5-working-model.md
-    02-gemini-pro-extended-working-model.md
-    03-source-cleanup-request.md
-    04-evidence-table.md
-    05-claims-to-verify.md
-    06-robel-review.md
-    07-current-working-model.md
-    sources/
-      source-list.md
+---
 
-Evidence Rule
+##  Basic Structure
 
-The source of truth is not the AI output.
+The repository organizes spikes and their supporting materials cleanly to maintain an open evidence trail. Further details to follow. 
 
-The source of truth is the evidence table, including source titles, authors, URLs, page numbers, exact quotes, evidence tiers, epistemic status, and local verification notes.
 
-License
+---
 
-License not yet selected.
+##  The Evidence Rule
+
+**The source of truth is not the AI output.** The source of truth is the **evidence table**. To be considered reliable, this table must include:
+* Source titles and authors
+* URLs
+* Specific page numbers
+* Exact quotes
+* Evidence tiers
+* Epistemic status
+* Local verification notes
+
+---
+
+##  License
+
+*License not yet selected.*
