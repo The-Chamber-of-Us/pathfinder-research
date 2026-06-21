@@ -1,930 +1,500 @@
-# Claims Needing Verification: Ribbed / HCB Slab Adoption in Ethiopia
+# Cleaned Findings: Ribbed / HCB Slab Adoption in Ethiopia
 
 ## Status
 
-Verification register based on:
+Cleaned cross-model findings based on the three raw model generations and the cross-model comparison.
+
+Inputs:
 
 - `../model-generations/chatgpt-5-5.md`
 - `../model-generations/claude.md`
 - `../model-generations/gemini-pro-extended.md`
 - `model-comparison.md`
-- `cleaned-findings.md`
 
-This file tracks claims that are plausible, important, or decision-relevant but should not yet be treated as final accepted findings.
+These findings are accepted as **working findings**, not final historical conclusions.
 
-Use this register to guide source cleanup, local review, and future human verification.
-
----
-
-## Verification Labels
-
-Use these labels when updating claims:
-
-- **Open**: not yet checked
-- **Partially supported**: some evidence exists, but claim needs narrowing or source cleanup
-- **Supported**: sufficiently supported for current repo purposes
-- **Contradicted**: available evidence points against the claim
-- **Needs local review**: requires Ethiopian engineer, contractor, academic, or practitioner confirmation
-- **Do not use yet**: too uncertain for outward-facing use
-- **Retire**: claim should be removed or replaced
+Claims that still need source cleanup or local verification should be tracked in `claims-needing-verification.md`.
 
 ---
 
-## Priority Labels
+## Executive Summary
 
-- **P0**: decision-critical for Nebyu or TCUS next steps
-- **P1**: important for cleaned historical interpretation
-- **P2**: useful but not urgent
-- **P3**: background or low-stakes clarification
+The evidence supports a bounded but important conclusion:
 
----
+Ribbed / hollow-concrete-block slab systems became real, implemented, and normalized within important Ethiopian construction pathways, especially Addis Ababa condominium and public/low-cost housing contexts.
 
-# P0 Claims: Decision-Critical for Nebyu / TCUS
+The strongest current interpretation is not that ribbed / HCB spread because it was simply “permitted” or “cheaper.”
 
-## Claim 1: Ribbed / HCB is a necessary comparator for Nebyu’s vaulted floor system
+The stronger interpretation is that ribbed / HCB became repeatable because it fit a multi-actor delivery pathway:
 
-**Working claim**
+- government housing programs needed faster, lower-cost delivery
+- GTZ/GIZ and Ethiopian ministry-linked technical work helped define low-cost construction approaches
+- public housing programs created repeated demand
+- micro and small enterprises could produce components
+- contractors could reduce formwork and skilled-carpentry burdens
+- engineers could analyze the system within familiar reinforced-concrete logic
+- standards and code references reduced review uncertainty
+- universities and theses helped normalize the system as teachable and reviewable
+- suppliers eventually made HCB products legible in the market
 
-Nebyu’s vaulted floor system should be compared not only against flat reinforced-concrete slabs, but also against ribbed / HCB systems where ribbed / HCB is the real incumbent in the target building type.
+The exact adoption history remains incompletely documented. But the available evidence is strong enough to treat ribbed / HCB as a serious Ethiopian floor-system precedent for Nebyu Samuel Haile’s vaulted floor work.
 
-**Why it matters**
+The main practical implication for Nebyu is baseline fairness:
 
-This directly affects cost, carbon, material, labor, and adoption-readiness claims.
-
-If flat RC is not the relevant incumbent for a target context, then comparisons against flat RC may overstate the adoption advantage.
-
-**Current status**
-
-Partially supported.
-
-**Evidence currently suggested by models**
-
-- Nebyu’s own comparisons appear to use conventional flat RC as a baseline.
-- Ribbed / HCB is documented in condominium/public housing contexts.
-- Local observation from Robel suggests ribbed / HCB may be common enough to matter.
-- Claude flags baseline fairness as a central issue.
-
-**What must be verified**
-
-- What baseline Nebyu used in thesis, IASS paper, and presentations.
-- Whether ribbed / HCB is common in the exact target use case: housing, school, campus auxiliary building, workshop, or NGO facility.
-- Whether Ethiopian engineers would view flat RC or ribbed / HCB as the fair incumbent.
-
-**Best verification methods**
-
-- Review Nebyu thesis comparison sections.
-- Review IASS paper comparison assumptions.
-- Ask Robel / Nebyu / Ethiopian engineers.
-- Review recent BOQs for comparable buildings.
-- Review contemporary Addis apartment, condominium, school, and institutional projects.
-
-**Verification owner**
-
-Open.
-
-**Priority**
-
-P0.
+A vaulted floor system should not only be compared against conventional flat reinforced-concrete slabs. In target contexts where ribbed / HCB is the real incumbent, it should also be compared against ribbed / HCB systems.
 
 ---
 
-## Claim 2: Ribbed / HCB is currently common in relevant Ethiopian building practice
+## What the Evidence Supports
 
-**Working claim**
+## Finding 1: Ribbed / HCB systems were used in Ethiopian condominium and housing practice
 
-Ribbed / HCB systems are common enough in Ethiopia to function as a realistic incumbent in some construction contexts.
+The strongest evidence supports use in Addis Ababa condominium or 20/80 housing project contexts.
 
-**Why it matters**
+Multiple model generations identified AAU / AAiT thesis evidence that selected condominium case studies used ribbed slab systems. This supports Robel’s observation in a bounded way.
 
-This determines whether ribbed / HCB is merely a historical precedent or a live baseline.
+Supported claim:
 
-**Current status**
+Ribbed / HCB systems were used in real Ethiopian condominium/public housing projects.
 
-Needs local review.
+Not yet supported:
 
-**Evidence currently suggested by models**
+Ribbed / HCB systems dominate all Ethiopian construction today.
 
-- AAU / AAiT thesis evidence documents use in selected Addis condominium projects.
-- Current HCB product listings suggest continued availability.
-- Robel’s observation suggests local familiarity.
-- Engineering theses and teaching materials treat ribbed slabs as familiar systems.
-
-**What must be verified**
-
-- Whether ribbed / HCB remains common today.
-- In which building types it is common.
-- Whether it is more common in public housing, private apartments, schools, or other structures.
-- Whether flat RC is still widely used.
-- Whether local practitioners distinguish cast-in-situ ribbed/HCB from precast-beam + HCB systems.
-
-**Best verification methods**
-
-- Local engineer interviews.
-- Contractor interviews.
-- Recent BOQ sampling.
-- Recent design drawings.
-- Product/supplier checks.
-- Quantity surveyor input.
-
-**Verification owner**
-
-Open.
-
-**Priority**
-
-P0.
+Confidence: High for use in documented condominium/public housing contexts. Low-medium for broad market dominance.
 
 ---
 
-## Claim 3: “Ribbed / HCB” refers to multiple physical systems, not one system
+## Finding 2: Adoption was likely public-program mediated
 
-**Working claim**
+Ribbed / HCB adoption appears to be connected to Ethiopia’s low-cost housing and condominium delivery pathway.
 
-Sources may use “ribbed / HCB” to refer to several related but distinct systems: cast-in-situ ribbed slab with HCB filler, precast-beam + HCB slab, hollow-block slab products, or broader ribbed/joist slab categories.
+The evidence repeatedly points to:
 
-**Why it matters**
+- GTZ/GIZ or German technical cooperation
+- Ethiopian ministry-linked low-cost housing technical work
+- Addis Ababa and national housing-program delivery
+- IHDP / condominium construction
+- standardized construction methods
+- public-program repetition
+- MSE-linked production
 
-Technical, cost, carbon, construction-sequence, and adoption claims may be invalid if sources refer to different systems.
+Supported claim:
 
-**Current status**
+The most plausible pathway was program-mediated adoption, not purely bottom-up private contractor diffusion.
 
-Partially supported.
+Confidence: Medium-high.
 
-**Evidence currently suggested by models**
+Caution:
 
-- Claude explicitly flags terminology trap.
-- The GTZ/IHDP pathway may involve precast beam + HCB.
-- Ethiopian design theses may discuss cast-in-situ ribbed slabs.
-- Standards may describe HCB or beam tiles rather than whole slab-system adoption.
-
-**What must be verified**
-
-- What exact assembly appears in each source.
-- Whether condominium projects used precast beam + HCB, cast-in-situ ribbed/HCB, or both.
-- How Ethiopian engineers use the term in practice.
-- Whether BOQs and drawings specify clear assembly types.
-
-**Best verification methods**
-
-- Direct review of drawings, BOQs, technical manuals, and standards.
-- Ask local engineers and contractors.
-- Create a terminology table mapping each source to physical assembly.
-
-**Verification owner**
-
-Open.
-
-**Priority**
-
-P0.
+The exact sequence of mandate, recommendation, procurement, contractor practice, and supply-chain normalization still needs direct source cleanup.
 
 ---
 
-## Claim 4: Nebyu’s published cost/carbon reductions may be upper-bound comparisons if ribbed / HCB is the relevant incumbent
+## Finding 3: The system solved a delivery bottleneck, not only a material-cost problem
 
-**Working claim**
+The models converge that ribbed / HCB systems mattered because they addressed construction-process constraints.
 
-Nebyu’s reported cost and embodied-carbon advantages may be strongest against flat RC slabs and may shrink if the comparator is ribbed / HCB.
+Likely advantages included:
 
-**Why it matters**
+- reduced formwork
+- reduced skilled-carpentry needs
+- reduced concrete volume
+- reduced scaffolding/support requirements
+- modular component production
+- compatibility with repetitive housing blocks
+- alignment with public housing speed and cost pressures
 
-This is highly decision-relevant for honest partner communication.
+Supported claim:
 
-**Current status**
+Ribbed / HCB adoption should be interpreted as a delivery-system adaptation, not just a cheaper slab.
 
-Partially supported.
+Confidence: Medium-high.
 
-**Evidence currently suggested by models**
+Caution:
 
-- Nebyu appears to compare against conventional concrete flat slab.
-- Ribbed / HCB may already reduce concrete volume and formwork.
-- Claude flags this as a baseline-fairness issue.
-
-**What must be verified**
-
-- Exact Nebyu cost and carbon figures.
-- Exact baseline used in each figure.
-- Whether a ribbed / HCB comparison exists.
-- What ribbed / HCB quantities, labor, reinforcement, and costs would be in Ethiopia.
-- Whether embodied-carbon advantage remains substantial against ribbed/HCB.
-
-**Best verification methods**
-
-- Review Nebyu thesis.
-- Review IASS paper.
-- Build comparison calculator: flat RC vs ribbed/HCB vs vaulted earthen floor.
-- Ask Nebyu to provide quantity takeoff assumptions.
-
-**Verification owner**
-
-Open.
-
-**Priority**
-
-P0.
+Specific cost/time percentages should not be carried forward until the baseline and source are cleaned.
 
 ---
 
-## Claim 5: The next responsible Nebyu evidence package must address actor-specific evidence, not only technical feasibility
+## Finding 4: MSE production may have converted the technology into an implementation pathway
 
-**Working claim**
+The evidence suggests that micro and small enterprises played a role in producing housing-program construction components, including HCB and possibly precast beam components.
 
-For Nebyu’s system to progress, the evidence package must reduce uncertainty for specific next actors: Ethiopian technical reviewer, contractor, host, funder, procurement actor, material producer, and second host.
+This matters because MSE production may have connected the slab system to broader public goals:
 
-**Why it matters**
+- job creation
+- decentralized construction-material production
+- local enterprise development
+- scalable component supply
+- public housing delivery
 
-This defines TCUS’s support role and avoids premature pilot advocacy.
+Supported claim:
 
-**Current status**
+MSE production was likely part of the adoption pathway.
 
-Supported as a working inference.
+Confidence: Medium.
 
-**Evidence currently suggested by models**
+Caution:
 
-- Ribbed / HCB adoption appears to have required multiple actor decisions.
-- Nebyu’s current public evidence is stronger technically than institutionally or implementation-wise.
-- Earlier Nebyu spikes identify gaps in host, contractor, QA, manual, BOQ, and monitoring evidence.
-
-**What must be verified**
-
-- Which actor actually controls Nebyu’s next transition.
-- What evidence that actor would require.
-- Whether any Ethiopian reviewer or host is already engaged.
-- Whether a construction manual, QA plan, or monitoring plan exists.
-
-**Best verification methods**
-
-- Ask Nebyu.
-- Ask local reviewer candidates.
-- Ask potential host institutions.
-- Review available test dossier, drawings, and construction documentation.
-
-**Verification owner**
-
-Open.
-
-**Priority**
-
-P0.
+It is not yet proven that MSE production caused adoption. The direct causal link requires source cleanup and local verification.
 
 ---
 
-# P1 Claims: Important Historical / Adoption-Pathway Claims
+## Finding 5: Standards/code compatibility helped reduce engineering uncertainty
 
-## Claim 6: Ribbed / HCB adoption was program-mediated, not purely market-mediated
+The models identify evidence that ribbed slabs and hollow blocks were legible within Ethiopian standards, code provisions, or Ethiopian engineering practice.
 
-**Working claim**
+This does not mean code caused adoption by itself.
 
-Ribbed / HCB adoption in Ethiopia was strongly tied to public housing and low-cost housing programs rather than emerging only through private contractor preference.
+It means ribbed / HCB systems were easier to normalize because they fit familiar reinforced-concrete design logic, product standards, and engineering review practices.
 
-**Current status**
+Supported claim:
 
-Partially supported.
+Standards/code compatibility likely supported normalization.
 
-**Evidence currently suggested by models**
+Confidence: Medium-high.
 
-- GTZ/ministry low-cost housing technical work.
-- IHDP and condominium delivery.
-- Public housing context in AAU / AAiT theses.
-- MSE production link.
+Caution:
 
-**What must be verified**
-
-- Whether ribbed / HCB was mandated, specified, recommended, or simply common.
-- Whether private-sector use followed public-program precedent.
-- Whether public procurement created repeat demand.
-
-**Best verification methods**
-
-- Review GTZ / MoFA manuals.
-- Review IHDP documentation.
-- Review public housing BOQs/specs.
-- Interview local contractors and engineers.
-
-**Priority**
-
-P1.
+Direct primary review of CES 24:2013, older hollow-block standards, EBCS clauses, and Ethiopian Eurocode-derived provisions is still required.
 
 ---
 
-## Claim 7: GTZ / GIZ and Ethiopian ministry technical work helped introduce or normalize beam + hollow-block systems
+## Finding 6: University and engineering normalization mattered
 
-**Working claim**
+AAU / AAiT theses and Ethiopian engineering materials treat ribbed slabs as analyzable, designable, and used in local projects.
 
-German technical cooperation and Ethiopian ministry-linked low-cost housing work played a key role in defining or promoting beam + hollow-block slab systems.
+This suggests ribbed / HCB entered the local engineering knowledge environment.
 
-**Current status**
+Supported claim:
 
-Open / partially supported.
+University and engineering normalization likely reinforced adoption and reviewability.
 
-**Evidence currently suggested by models**
+Confidence: Medium-high.
 
-- Multiple generations mention GTZ / Ministry technical manuals.
-- Claude distinguishes GTZ low-cost housing work from later IHDP scaling.
-- ChatGPT identifies GTZ/ministry manual evidence but calls for source cleanup.
+Caution:
 
-**What must be verified**
-
-- Exact manual title, author, date, institution.
-- Whether the manual directly describes beam + hollow-block systems.
-- Whether the manual influenced later public housing designs.
-- Whether GIZ/GTZ had an implementation role or only technical advisory role.
-
-**Best verification methods**
-
-- Locate original manual PDFs.
-- Extract exact quotes.
-- Compare manual details with IHDP designs.
-
-**Priority**
-
-P1.
+More evidence is needed on whether this entered formal curriculum, professional practice, or only thesis-level analysis.
 
 ---
 
-## Claim 8: IHDP used ribbed / HCB or precast-beam + HCB systems in condominium construction
+## Finding 7: “Ribbed / HCB” is not one single system
 
-**Working claim**
+The term may refer to several related but distinct systems:
 
-The Integrated Housing Development Program or associated Addis condominium projects used ribbed / HCB or precast-beam + HCB slab systems.
+- precast beam + hollow-block slab systems
+- cast-in-situ ribbed slabs with HCB filler blocks
+- ribbed or joist slab categories in design codes
+- hollow-block product standards
+- condominium-specific floor assemblies
+- local contractor shorthand for related assemblies
 
-**Current status**
+Supported claim:
 
-Partially supported.
+Future research must define the exact physical system before comparing cost, carbon, labor, standards, or adoption pathway.
 
-**Evidence currently suggested by models**
+Confidence: High.
 
-- AAU / AAiT thesis evidence on selected 20/80 condominium projects.
-- Claude notes HCB production and precast beam production as program components.
-- Gemini and ChatGPT both associate HCB/ribbed slabs with IHDP or condominium delivery.
+Practical implication:
 
-**What must be verified**
-
-- Direct IHDP design/specification references.
-- Whether all or only some condominium projects used the system.
-- Whether the system changed over time.
-- Whether the documented thesis examples are representative.
-
-**Best verification methods**
-
-- Review IHDP technical documentation.
-- Review condominium BOQs/drawings.
-- Ask Addis-based engineers or contractors.
-
-**Priority**
-
-P1.
+Do not let “ribbed / HCB” become a fuzzy category in Nebyu comparisons.
 
 ---
 
-## Claim 9: MSEs produced HCB and/or precast components for the housing pathway
+## Finding 8: Current dominance is not proven
 
-**Working claim**
+The evidence supports ribbed / HCB as important and normalized in particular pathways.
 
-Micro and Small Enterprises produced HCB blocks and possibly precast beams/components for the public housing pathway.
+It does not prove:
 
-**Current status**
+- national dominance
+- current dominance in private construction
+- dominance in school construction
+- dominance in all condominium construction
+- measured market share
+- a clean time-series shift from flat slabs to ribbed / HCB
 
-Partially supported.
+Supported claim:
 
-**Evidence currently suggested by models**
+Ribbed / HCB appears important enough to be a serious baseline in some Ethiopian contexts.
 
-- Claude and Gemini emphasize MSE production.
-- IHDP is widely associated with MSE job creation and construction-sector development.
-- ChatGPT notes training/supply references.
+Unsupported claim:
 
-**What must be verified**
+Ribbed / HCB is the universal current baseline.
 
-- Which components MSEs produced.
-- Scale of production.
-- Quality-control regime.
-- Whether production was sustained.
-- Whether MSE production was central to adoption or incidental.
-
-**Best verification methods**
-
-- IHDP reports.
-- UN-Habitat reports.
-- Ethiopian government/MSE documents.
-- Local practitioner interviews.
-
-**Priority**
-
-P1.
+Confidence: High that broad dominance is unproven.
 
 ---
 
-## Claim 10: Reduced formwork and skilled-carpentry demand were central adoption drivers
+## Finding 9: The cost story is unresolved
 
-**Working claim**
+The models surface conflicting or context-specific cost claims.
 
-Ribbed / HCB systems were adopted partly because they reduced formwork and skilled-carpentry requirements.
+Some sources suggest major cost reductions in low-cost housing pathways. Other engineering comparisons suggest ribbed slabs are not always cheaper than solid slabs under certain assumptions.
 
-**Current status**
+Supported claim:
 
-Partially supported.
+Cost advantage should be treated as context-dependent.
 
-**Evidence currently suggested by models**
+Unsupported claim:
 
-- Claude strongly emphasizes formwork and skilled labor.
-- Gemini makes similar claims.
-- This aligns with low-cost housing program goals.
+Ribbed / HCB is always cheaper than flat or solid slabs.
 
-**What must be verified**
+Confidence: Medium-high.
 
-- Direct manual passages.
-- Contractor testimony.
-- BOQ or method comparisons.
-- Whether these advantages were explicitly cited by program actors.
+Required next step:
 
-**Best verification methods**
+Separate:
 
-- Manual review.
-- Contractor interviews.
-- Construction method comparison.
-
-**Priority**
-
-P1.
+- overall housing-program cost reductions
+- slab-system-specific cost reductions
+- management or procurement savings
+- finishing savings
+- labor and formwork savings
+- material quantity savings
+- baseline-specific cost comparisons
 
 ---
 
-## Claim 11: Standards/code compatibility supported normalization
+## Finding 10: Nebyu’s flat-slab baseline is necessary but insufficient
 
-**Working claim**
+Nebyu’s vaulted floor system is currently discussed mainly against conventional reinforced concrete flat slab baselines.
 
-Ribbed / HCB systems were easier to normalize because they fit Ethiopian standards/code provisions or familiar reinforced-concrete design categories.
+That is useful, but it may not be sufficient for adoption-pathway comparison in Ethiopia.
 
-**Current status**
+If ribbed / HCB is the incumbent in a target building type, then a fair adoption comparison must include ribbed / HCB.
 
-Partially supported.
+Supported claim:
 
-**Evidence currently suggested by models**
+Future Nebyu evidence should include both flat RC and ribbed / HCB comparators.
 
-- Claude references CES 24:2013 and possible older standards.
-- ChatGPT flags code-cited rib dimensions.
-- Engineering theses use ribbed slab design logic.
-
-**What must be verified**
-
-- Direct text of CES 24:2013.
-- Scope of older hollow-block standards.
-- EBCS / Ethiopian Eurocode ribbed slab clauses.
-- Whether code provisions specifically cover HCB filler systems, ribbed slabs, precast beams, or product blocks.
-
-**Best verification methods**
-
-- Standards review.
-- Code clause extraction.
-- Local structural engineer review.
-
-**Priority**
-
-P1.
+Confidence: Medium-high.
 
 ---
 
-## Claim 12: University/AAU/AAiT theses helped normalize ribbed/HCB engineering practice
+## Adoption Mechanism: From Permission Chain to Decision Survival
 
-**Working claim**
+The ribbed / HCB case should not be reduced to “permission chain.”
 
-University research and engineering theses helped make ribbed/HCB systems analyzable and legitimate within Ethiopian engineering practice.
+A better working model is:
 
-**Current status**
+Ribbed / HCB became repeatable because multiple actors had enough system-specific confidence to make successive decisions.
 
-Partially supported.
+Possible decision sequence:
 
-**Evidence currently suggested by models**
+| Actor | Possible decision | Evidence or support that reduced uncertainty |
+|---|---|---|
+| Ministry / technical cooperation actor | define or promote low-cost construction approach | technical manual, low-cost housing program logic |
+| Public housing agency | use system in repeated projects | standardized typology, speed/cost logic |
+| MSE producer | produce components | HCB/precast production pathway |
+| Contractor | assemble system on site | reduced formwork, familiar concrete/block work |
+| Engineer | design or review | code-compatible reinforced-concrete logic |
+| Standards body / code system | permit or define product/design category | HCB standards, ribbed slab provisions |
+| University | analyze and teach | theses, design coursework, project studies |
+| Supplier | sell components | market demand and repeat use |
+| Future project actor | use again | public-program precedent and available supply chain |
 
-- Multiple theses analyze ribbed slab systems.
-- Some theses use real condominium case studies.
-- Models identify university validation and engineering normalization.
-
-**What must be verified**
-
-- Whether theses influenced practice or merely reflected practice.
-- Whether ribbed/HCB is included in formal curriculum.
-- Whether engineering offices use university-derived design guidance.
-
-**Best verification methods**
-
-- Review curricula.
-- Ask AAU/AAiT faculty/engineers.
-- Trace thesis citations into practice if possible.
-
-**Priority**
-
-P1.
+This makes the case relevant to the emerging Second-Decision Survival hypothesis.
 
 ---
 
-## Claim 13: Public housing adoption translated into broader private-sector adoption
+## Second-Decision Survival Interpretation
 
-**Working claim**
+Working hypothesis:
 
-Use in public housing helped normalize ribbed/HCB beyond government programs.
+Construction innovations diffuse when actor-specific evidence reduces uncertainty for successive independent decision-makers. Adoption failure may occur even when evidence exists if that evidence does not reduce uncertainty for the actor controlling the next transition.
 
-**Current status**
+The ribbed / HCB case appears to support this hypothesis in a bounded way.
 
-Open / do not use yet.
+It suggests that adoption did not occur simply because the system was technically possible or formally permitted.
 
-**Evidence currently suggested by models**
+It moved because different actors could make different next decisions:
 
-- Current product listings suggest market availability.
-- Practitioner observation suggests familiarity.
-- Public-program scale could plausibly seed private adoption.
+- housing programs could specify it
+- MSEs could produce components
+- contractors could assemble it
+- engineers could review it
+- universities could study it
+- suppliers could sell it
+- later projects could repeat it
 
-**What must be verified**
+However, SDS should not be treated as the only explanation.
 
-- Current private-sector use.
-- Whether private engineers/contractors choose ribbed/HCB voluntarily.
-- Whether suppliers serve private projects.
-- Whether adoption is concentrated in public or public-influenced contexts.
+Rival explanations remain important:
 
-**Best verification methods**
+- state power
+- public procurement
+- donor technical cooperation
+- housing-delivery pressure
+- cost and speed constraints
+- MSE/job-creation policy
+- standards/code compatibility
+- path dependence once the system entered public housing practice
 
-- Private project BOQs/drawings.
-- Contractor/engineer interviews.
-- Supplier interviews.
+Cleaned interpretation:
 
-**Priority**
-
-P1.
-
----
-
-## Claim 14: Ribbed / HCB adoption should be interpreted as decision-survival rather than permission-chain alone
-
-**Working claim**
-
-The ribbed/HCB case is better interpreted as repeated survival through multiple actor decisions than as a simple linear permission chain.
-
-**Current status**
-
-Supported as a working analytical interpretation.
-
-**Evidence currently suggested by models**
-
-- Multiple actors appear relevant: technical cooperation, ministries, housing agencies, MSEs, contractors, standards bodies, universities, suppliers.
-- Adoption appears to involve more than code permission.
-- Public-program repetition and supply-chain construction likely mattered.
-
-**What must be verified**
-
-- Whether each actor actually made a distinct decision.
-- Whether later actors relied on evidence from earlier steps.
-- Whether rival explanations like state mandate explain more of the outcome.
-
-**Best verification methods**
-
-- SDS comparative spike.
-- Primary documents.
-- Local interviews.
-
-**Priority**
-
-P1.
+Ribbed / HCB likely diffused through a combination of state-program demand, supply-chain construction, standards compatibility, and actor-specific uncertainty reduction.
 
 ---
 
-# P2 Claims: Useful but Lower Urgency
+## What the Evidence Does Not Yet Support
 
-## Claim 15: CES 24:2013 was compulsory and covered HCB / beam tiles relevant to the slab pathway
+The evidence does not yet support these claims as final findings:
 
-**Working claim**
+1. Ribbed / HCB is the dominant slab system across all Ethiopia.
+2. Ribbed / HCB replaced flat slabs everywhere.
+3. Ribbed / HCB was adopted because it was always cheaper.
+4. Code permission alone caused adoption.
+5. MSE production caused adoption by itself.
+6. IHDP used exactly one slab system everywhere.
+7. All sources use “ribbed / HCB” to mean the same physical assembly.
+8. Nebyu’s published cost/carbon claims are invalid because of the comparator issue.
+9. Ribbed / HCB is necessarily the right comparator for every Nebyu use case.
+10. Public housing adoption proves private-sector normalization.
 
-CES 24:2013 is a compulsory Ethiopian standard relevant to hollow concrete blocks and possibly beam tiles.
-
-**Current status**
-
-Open.
-
-**What must be verified**
-
-- Exact title and scope.
-- Whether it is compulsory.
-- Whether it applies to wall blocks, slab blocks, beam tiles, or all.
-- Whether it relates directly to ribbed/HCB slab systems.
-
-**Priority**
-
-P2.
+These should remain claims needing verification or contextualization.
 
 ---
 
-## Claim 16: A 1973 Ethiopian hollow-block standard preceded CES 24:2013
+## Implications for Nebyu’s Vaulted Floor System
 
-**Working claim**
+## 1. Comparator discipline is now essential
 
-An older Ethiopian hollow-block standard existed before CES 24:2013.
+Nebyu’s system should be evaluated against different baselines depending on target use.
 
-**Current status**
+| Target use | Comparator needed |
+|---|---|
+| Condominium / multi-story housing | flat RC + ribbed/HCB |
+| Public or institutional buildings | current local slab/floor practice + ribbed/HCB if applicable |
+| School/classroom buildings | actual school-construction baseline, not assumed condominium baseline |
+| University/workshop demo | local campus-standard floor/roof/slab practice |
+| Low-carbon innovation comparison | flat RC + ribbed/HCB + relevant alternative masonry/earth systems |
 
-Open.
-
-**What must be verified**
-
-- Exact title, institution, and scope.
-- Whether it remained in effect.
-- Whether it influenced later housing practice.
-
-**Priority**
-
-P2.
+Do not use a single baseline for all adoption claims.
 
 ---
 
-## Claim 17: Common ribbed/HCB slab dimensions include roughly 28 cm slab depth and 6 cm topping
+## 2. The next evidence package must serve multiple actors
 
-**Working claim**
+For Nebyu, evidence should be actor-specific.
 
-Some sources suggest typical ribbed/HCB dimensions around 28 cm depth and 6 cm topping.
-
-**Current status**
-
-Do not use yet.
-
-**What must be verified**
-
-- Which source states this.
-- Whether it applies to Ethiopia.
-- Whether it applies to cast-in-situ ribbed/HCB or precast beam + HCB.
-- Whether it is typical, minimum, or only one project example.
-
-**Priority**
-
-P2.
+| Actor | Evidence needed |
+|---|---|
+| Ethiopian technical reviewer | load path, failure modes, serviceability, durability, code fit |
+| Structural engineer | calculations, test data, boundary conditions, safety factors |
+| Contractor / mason team | construction sequence, tolerances, decentering, rework risk |
+| Host institution | use limits, liability, monitoring, maintenance |
+| Funder | cost/carbon comparison, risk-control plan, learning value |
+| Procurement actor | BOQ, specifications, inspection plan, supplier capacity |
+| Material producer | block QA, curing, soil/material properties, repeatability |
+| University | teaching/testing protocol and documentation value |
+| Second host | post-build evidence from first host |
 
 ---
 
-## Claim 18: The reported 40% housing cost reduction is not purely a slab-technology reduction
+## 3. The first build should be designed as a second-decision generator
 
-**Working claim**
+A first vaulted-floor build should not be treated as a showcase.
 
-Large low-cost housing cost-reduction claims may combine technology, management, procurement, and finishing savings rather than reflecting slab system savings alone.
+It should be designed to produce:
 
-**Current status**
+- technical review evidence
+- construction-learning evidence
+- cost/time evidence
+- QA/tolerance evidence
+- material-production evidence
+- host-operation evidence
+- maintenance evidence
+- monitoring evidence
+- a post-build review package
+- a second-project decision memo
 
-Partially supported.
-
-**What must be verified**
-
-- Original source of 40% claim.
-- Original source of 12% technology contribution claim.
-- Whether savings refer to whole housing program, shell, slab, or management changes.
-- Whether the figures are comparable.
-
-**Priority**
-
-P2.
+If it does not create evidence for the next actor, it risks becoming a dead-end artifact.
 
 ---
 
-## Claim 19: A 12% technology contribution figure appears in UN-Habitat or related IHDP analysis
+## 4. Ribbed / HCB is a useful precedent but not a direct analogy
 
-**Working claim**
+Useful lessons:
 
-One source may attribute around 12% of cost reduction to technology, separate from management/finishing savings.
+- floor systems carry higher trust burden than wall/partition materials
+- standards and engineering legibility matter
+- public programs can normalize systems
+- manuals and repeat procurement matter
+- supply chains and training matter
+- repeatability matters more than one successful build
 
-**Current status**
+Limits:
 
-Open.
-
-**What must be verified**
-
-- Exact source.
-- Exact wording.
-- Whether the figure is 12%.
-- What “technology” includes.
-- Whether it includes ribbed/HCB.
-
-**Priority**
-
-P2.
+- ribbed / HCB is reinforced-concrete-based
+- it fits familiar code logic more easily
+- it uses known cement/block supply chains
+- it benefited from public housing scale
+- unreinforced vaulted earthen floors face different structural trust and use-case challenges
 
 ---
 
-## Claim 20: Ethiopian engineering comparisons sometimes find ribbed slabs are not always cheaper than solid slabs
+## Working Lessons for TCUS
 
-**Working claim**
+1. Do not ask whether a system is “approved” in the abstract.
+2. Ask which actor must make the next decision.
+3. Ask what uncertainty blocks that decision.
+4. Ask what evidence would reduce that uncertainty.
+5. Ask whether the evidence is available to that actor in a usable form.
+6. Ask whether legitimacy is concentrated in one champion or distributed across a pathway.
+7. Ask whether the first build can produce a second independent decision.
 
-Some Ethiopian engineering theses or studies may find ribbed slabs are not always cheaper than solid slabs, depending on span, loading, material costs, or design assumptions.
-
-**Current status**
-
-Partially supported.
-
-**What must be verified**
-
-- Which studies.
-- What assumptions.
-- Which slab systems.
-- Whether findings apply to HCB filler blocks or generic ribbed slabs.
-- Whether cost includes formwork/labor.
-
-**Priority**
-
-P2.
+This is the stronger lesson from the ribbed / HCB case.
 
 ---
 
-## Claim 21: The condominium program was publicly criticized as a “mistake”
+## Recommended Next Verification Queue
 
-**Working claim**
+Highest priority:
 
-One public statement reportedly described the condominium program as a “mistake.”
-
-**Current status**
-
-Do not use yet.
-
-**What must be verified**
-
-- Exact speaker.
-- Exact quote.
-- Context.
-- Whether it criticized housing policy, urban form, finance, construction quality, affordability, or something else.
-- Whether it has any bearing on slab-system adoption.
-
-**Priority**
-
-P2.
+1. Retrieve and review original GTZ / Ethiopian ministry low-cost housing technical manuals.
+2. Retrieve and review UN-Habitat IHDP report in full.
+3. Confirm whether the manual directly specifies beam + hollow-block slab systems.
+4. Verify CES 24:2013 and any older Ethiopian hollow-block standards.
+5. Verify relevant EBCS / Ethiopian Eurocode ribbed slab clauses.
+6. Ask Robel/local engineers what “ribbed / HCB” means in current practice.
+7. Ask whether ribbed / HCB is common in private, public, school, and condominium contexts.
+8. Confirm whether BOQs currently specify ribbed / HCB as a standard item.
+9. Clarify cost-savings figures and baselines.
+10. Compare Nebyu’s system against ribbed / HCB on cost, carbon, labor, structural risk, and implementation pathway.
+11. Identify whether MSE component production still matters or whether supply has shifted to private suppliers.
+12. Check whether there are known quality, durability, workmanship, or maintenance issues with ribbed / HCB slabs.
 
 ---
 
-## Claim 22: Current HCB product listings indicate ongoing supplier ecosystem
+## Recommended Local Interview Questions
 
-**Working claim**
+For Robel, Nebyu, Ethiopian engineers, contractors, or quantity surveyors:
 
-Current listings for HCB products suggest ongoing market availability.
-
-**Current status**
-
-Partially supported.
-
-**What must be verified**
-
-- Whether listings are current and real.
-- Whether products are wall blocks, slab filler blocks, beam tiles, or other.
-- Whether suppliers support floor systems.
-- Whether product availability translates into actual project use.
-
-**Priority**
-
-P2.
-
----
-
-# P3 Claims: Background Clarifications
-
-## Claim 23: IHDP unit-count targets and delivery numbers are reliable enough for background
-
-**Working claim**
-
-IHDP was large-scale enough to matter as a public-program adoption environment.
-
-**Current status**
-
-Partially supported.
-
-**What must be verified**
-
-- Exact targets.
-- Exact delivered units.
-- Time period.
-- Addis vs national numbers.
-- Whether numbers refer to completed, allocated, or planned units.
-
-**Priority**
-
-P3.
-
----
-
-## Claim 24: GTZ low-cost housing work and IHDP are sequential but not identical pathways
-
-**Working claim**
-
-GTZ low-cost housing technical work preceded or fed into later IHDP/public housing pathways, but should not be collapsed into the same actor or program.
-
-**Current status**
-
-Partially supported.
-
-**What must be verified**
-
-- Chronology.
-- Institutional relationship.
-- Whether technical manuals were directly adopted into IHDP.
-- Whether actors overlapped.
-
-**Priority**
-
-P3.
-
----
-
-## Claim 25: Ribbed/HCB was normalized partly through design-office and contractor repetition
-
-**Working claim**
-
-Once public projects repeated the system, design offices, engineers, suppliers, and contractors became more familiar with it.
-
-**Current status**
-
-Institutional inference.
-
-**What must be verified**
-
-- Contractor/design-office interviews.
-- Repeated BOQ/drawing evidence.
-- Supplier continuity.
-- Training pathways.
-
-**Priority**
-
-P3.
-
----
-
-# Claims to Avoid in Outward-Facing Language
-
-Do not say these without additional verification:
-
-1. “Ribbed / HCB is the standard Ethiopian slab system.”
-2. “Flat RC is no longer a relevant baseline in Ethiopia.”
-3. “Ribbed / HCB reduced housing cost by 40%.”
-4. “MSEs caused ribbed / HCB adoption.”
-5. “GTZ introduced ribbed / HCB to Ethiopia.”
-6. “IHDP mandated ribbed / HCB everywhere.”
-7. “Code permission created adoption.”
-8. “Ribbed / HCB is always cheaper than solid slabs.”
-9. “Nebyu’s cost/carbon claims are overstated.”
-10. “Ribbed / HCB is a direct technical analogue to Nebyu’s vaulted floor.”
-11. “The condominium program failed because of ribbed / HCB.”
-12. “The system is dominant in private construction.”
-13. “All hollow blocks in sources refer to slab filler blocks.”
-14. “A second decision proves adoption.”
-
-Safer phrasing:
-
-- “The evidence suggests...”
-- “In documented condominium/public housing contexts...”
-- “This appears to have been part of...”
-- “This remains to be verified locally...”
-- “A fair comparison may require...”
-- “This is a working interpretation, not a final finding...”
-
----
-
-# Highest-Priority Verification Queue
-
-## Source Cleanup
-
-1. Original GTZ / MoFA low-cost housing manual.
-2. Original UN-Habitat IHDP documentation.
-3. AAU / AAiT condominium thesis PDFs.
-4. CES 24:2013 text.
-5. Older Ethiopian hollow-block standard if available.
-6. EBCS / Ethiopian Eurocode clauses for ribbed slabs.
-7. Nebyu thesis cost/carbon comparison sections.
-8. Nebyu IASS paper comparison assumptions.
-9. Ethiopian engineering theses comparing solid and ribbed slabs.
-10. Current product / supplier listings for HCB and precast beam components.
-
-## Local Review
-
-1. Robel: current meaning and use of ribbed/HCB.
-2. Nebyu: baseline selection and fair comparator.
-3. Ethiopian structural engineer: code/design review path.
-4. Contractor or quantity surveyor: current costs, BOQ conventions, construction sequence.
-5. Supplier/block producer: product types, QA, current demand.
-6. University faculty or thesis author if reachable: teaching/practice role.
-
----
-
-# Proposed Verification Table for Future Updates
-
-Use this table as claims are checked.
-
-| Claim ID | Claim | Priority | Current label | Evidence found | Source / interview | Updated confidence | Next action |
-|---|---|---:|---|---|---|---|---|
-| 1 | Ribbed/HCB is necessary Nebyu comparator | P0 | Partially supported |  |  |  |  |
-| 2 | Ribbed/HCB is currently common in target contexts | P0 | Needs local review |  |  |  |  |
-| 3 | Ribbed/HCB refers to multiple systems | P0 | Partially supported |  |  |  |  |
-| 4 | Nebyu reductions may be upper-bound vs flat RC | P0 | Partially supported |  |  |  |  |
-| 5 | Nebyu needs actor-specific evidence package | P0 | Working inference |  |  |  |  |
+1. What slab systems are most common in current Addis Ababa apartment or condominium projects?
+2. What slab systems are most common in school or institutional buildings?
+3. When people say “ribbed / HCB,” what exact assembly do they usually mean?
+4. Is the system usually cast-in-situ, precast-beam + block, or mixed?
+5. Who supplies the blocks or precast components?
+6. Are they made by MSEs, private firms, contractors, or site crews?
+7. Is ribbed / HCB specified in BOQs as a standard item?
+8. What are the typical quality-control concerns?
+9. Do contractors like the system or use it because drawings/specs require it?
+10. Are there common problems with cracking, vibration, finishing, plastering, workmanship, or maintenance?
+11. Is flat RC still used often?
+12. For Nebyu’s vaulted floor, what would Ethiopian engineers consider the fair baseline?
 
 ---
 
 ## Bottom Line
 
-The claims most worth verifying are not merely historical.
+The ribbed / HCB case is valuable because it shows that floor-system adoption in Ethiopia may depend less on technical feasibility alone and more on the creation of a repeatable pathway across institutions, procurement, supply chains, engineering practice, contractor learning, and public-program demand.
 
-They are decision-critical for Nebyu and TCUS.
+The cleaned working finding is:
 
-The central unresolved practical question is:
+Ribbed / HCB slab systems became important in Ethiopian public housing and condominium construction because they were made legible and repeatable to multiple actors, not merely because they were technically possible.
 
-What is the real incumbent floor/slab system for Nebyu’s target context, and what evidence would convince the next Ethiopian actor to make a responsible follow-on decision?
+For Nebyu, the lesson is direct:
 
-Until that is answered, use ribbed / HCB as a serious comparator and adoption precedent, but avoid broad claims about dominance, cost savings, or direct technical equivalence.
+The next responsible commitment is not simply “build a pilot.” It is to define what evidence the first build must generate so that a second independent actor can responsibly review, fund, host, procure, build, or repeat the next step.
